@@ -1,0 +1,28 @@
+{
+  "objects":
+  [
+    	{ "type": "application/light", "content": { "lightType": "ambient", "args": [[200, 200, 200], 0.2] } },
+    	{ "type": "application/light", "content": { "lightType": "directional", "args": [[255, 255, 255], 1], "position": [1, 2, 3], "shadow": [150, 5120, 0.1, 10000, -0.0001] } },
+    	{ "start_url": "https://thecubist.github.io/weba-modules/water/index.js", "position": [ 0, -10, 0 ], "physics": false, "dynamic": false, "scale": [1,1,1] },
+
+    	{ "start_url": "https://thecubist.github.io/WebaverseAssets/Generic/SkysphereBlueGalaxy.glb", "position": [0,0,0], "quaternion" : [0, 0, 0, 1], "scale" : [1, 1, 1], "dynamic": false, "physics": false}, 
+    
+    	{ "start_url": "https://thecubist.github.io/WebaverseAssets/Generic/Pillar.glb", "position": [15.091, 43.447, 133.241], "quaternion" : [ 0,0,0,1], "scale" : [0.7, 1, 0.7], "dynamic": true, "physics": true},  
+    	{ "start_url": "https://thecubist.github.io/WebaverseAssets/Generic/Pillar.glb", "position": [5,70,136.24], "quaternion" : [0, 0.43, 0, 0.939], "scale" : [0.2, 0.2, 0.2], "dynamic": true, "physics": true},  
+    	{ "start_url": "https://thecubist.github.io/WebaverseAssets/Generic/Pillar.glb", "position": [6,50,125.2], "quaternion" : [0, 0.149, 0, 0.989], "scale" : [0.2, 0.2, 0.2], "dynamic": true, "physics": true},
+    	{ "start_url": "https://thecubist.github.io/WebaverseAssets/Generic/Pillar.glb", "position": [23,58,134], "quaternion" : [0, 0.149, 0, 0.989], "scale" : [0.2, 0.2, 0.2], "dynamic": true, "physics": true},   
+    	{ "start_url": "https://thecubist.github.io/WebaverseAssets/Generic/TerrainTest.glb", "position": [0,-29,0], "quaternion" : [0,-0.774,0,0.644], "scale" : [5,1.5,5], "dynamic": false, "physics": true},
+	{ "start_url": "https://thecubist.github.io/WebaverseAssets/WebaResort/Bridge02_MP.glb", "position": [28.4, 7.15,5.7], "quaternion" : [0, -0.199, 0, 0.98], "scale" : [0.2, 0.2, 0.2], "dynamic": true, "physics": true},
+	{ "start_url": "https://thecubist.github.io/WebaverseAssets/WebaResort/PlatformGlassPath_HP.glb", "position": [35.4, 7.1, -11.3], "quaternion" : [0, -0.734, 0, -0.679], "scale" : [1, 0.5, 1], "dynamic": true, "physics": true},
+	{ "start_url": "https://thecubist.github.io/WebaverseAssets/Generic/CobblePlatform.glb", "position": [9.65, -8.281, 36.588], "quaternion" : [0,-0.679,0,0.735], "scale" : [1,1,1], "dynamic": true, "physics": true},
+	{ "start_url": "https://thecubist.github.io/WebaverseAssets/Generic/SpiralStaircase.glb", "position": [29.851, -8.567, 11.688], "quaternion" : [0,-0.734,0,-0.679], "scale" : [1,1,1], "dynamic": true, "physics": true},
+	{ "start_url": "https://thecubist.github.io/WebaverseAssets/Generic/LightPillar.glb", "position": [29.851, 6.7, 11.688], "quaternion" : [0,-0.734,0,-0.679], "scale" : [0.8,0.8,0.8], "dynamic": true, "physics": true},
+	{ "start_url": "https://thecubist.github.io/weba-modules/audio/index.js", "position": [0,0,0] },
+	{ "start_url": "https://webaverse.github.io/eth-coin/", "position": [30.38, 18.75, 0.74] },
+	{ "start_url": "https://ipfs.webaverse.com/QmSKtECevzoAxW32wB21p4dsZH95rfcSyv9NBrsp7tSdS2/3597f7f62fb7d1c6749a5c0f16e5c2e6.gif", "position": [29.85, 8, 11.7], "quaternion" : [0,0,0,1], "scale" : [1.2,1.2,1.2], "dynamic": true, "physics": true},
+	{ "start_url": "https://pigloo.github.io/weba-modules/glass1/index.js", "position": [0,10,0], "quaternion" : [0,0,0,1], "scale" : [1,1,1]},
+	{ "type": "application/light", "content": { "lightType": "point", "args": [[255,150,100], 5], "position": [29.851, 8, 11.688] }},
+	{ "type": "application/spawnpoint", "content": {"position": [30.38, 8.75, 0.74]}}
+  ]
+}
+
